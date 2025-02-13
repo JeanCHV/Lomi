@@ -1,0 +1,11 @@
+{
+    "nombre": "Ana",
+    "mensaje": "¡Gracias por ser tan especial!",
+    "colorFondo": "#fc0069",
+    "colorTexto": "white",
+    "imagenes": [
+      "img/foto1.jpg",
+      "img/foto2.jpg"
+    ],
+    "audio": "Bad Bunny - Moscow Mule (Video Oficial)  Un Verano Sin Ti.mp3"
+  }
