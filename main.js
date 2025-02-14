@@ -11,29 +11,43 @@ async function cargarDatos() {
 
 // Función para mostrar los datos en la página
 function mostrarDatos(datos) {
+    //obtener el json segun el id del sessionstorage 
+    const id = sessionStorage.getItem('id');
+    const data = datos.find((element) => element.id == id);
+    console.log(data);
     // Personalizar el mensaje
-    document.getElementById('nombre').textContent = datos.nombre;
-    document.getElementById('textoMensaje').textContent = datos.mensaje;
+    document.getElementById('nombre').textContent = data.nombre;
+    document.getElementById('textoMensaje').textContent = data.mensaje;
 
     // Cambiar colores
     //document.body.style.backgroundColor = datos.colorFondo;
-    document.getElementById('mensaje').style.color = datos.colorTexto;
-    document.getElementById('mensaje').style.backgroundColor = datos.colorFondo;
+    document.getElementById('mensaje').style.color = data.colorTexto;
+    document.getElementById('mensaje').style.backgroundColor = data.colorFondo;
 
     // Mostrar imágenes
     const galeria = document.getElementById('galeria');
-    datos.imagenes.forEach((imagen) => {
+    data.imagenes.forEach((imagen) => {
         const img = document.createElement('img');
         img.src = imagen;
         img.alt = "Imagen personalizada";
         img.classList.add('imagen-galeria');
         galeria.appendChild(img);
         const audio = document.getElementById('audio');
-        audio.src = datos.audio;
+        audio.src = data.audio;
+        audio.load();
     });
 
 }
-
+function playAudio() {
+    const audio = document.getElementById('audio');
+    if (audio.paused) {
+        audio.play();
+        document.getElementById('playaudio').textContent = '⏸️';
+    } else {
+        audio.pause();
+        document.getElementById('playaudio').textContent = '▶️';
+    }
+}
 // Función principal
 async function iniciar() {
     const datos = await cargarDatos();

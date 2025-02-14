@@ -1,11 +1,65 @@
-{
-    "nombre": "Ana",
+[
+  {
+    "id": 1,
+    "nombre": "Ana Pata Abierta",
     "mensaje": "¡Gracias por ser tan especial!",
     "colorFondo": "#fc0069",
     "colorTexto": "white",
     "imagenes": [
       "img/foto1.jpg",
-      "img/foto2.jpg"
+      "img/foto2.jpg",
+      "img/foto3.jpg"
+    ],
+    "audio": "BAD BUNNY ft. Chuwi - WELTiTA (Visualizer)  DeBÍ TiRAR MáS FOToS.mp3"
+  },
+  {
+    "id": 2,
+    "nombre": "Luisa Luz",
+    "mensaje": "¡Gracias por todo!",
+    "colorFondo": "#00ffcc",
+    "colorTexto": "white",
+    "imagenes": [
+      "img/foto4.jpg"
     ],
     "audio": "Bad Bunny - Moscow Mule (Video Oficial)  Un Verano Sin Ti.mp3"
+  },
+  {
+    "id": 3,
+    "nombre": "Pedro Piedra",
+    "mensaje": "¡Eres único!",
+    "colorFondo": "#cc00ff",
+    "colorTexto": "white",
+    "imagenes": [
+      "img/foto10.jpg",
+      "img/foto11.jpg",
+      "img/foto12.jpg"
+    ],
+    "audio": "cancion3.mp3"
+  },
+  {
+    "id": 4,
+    "nombre": "Sofía Sol",
+    "mensaje": "¡Brillas como el sol!",
+    "colorFondo": "#ff6600",
+    "colorTexto": "black",
+    "imagenes": [
+      "img/foto13.jpg",
+      "img/foto14.jpg",
+      "img/foto15.jpg"
+    ],
+    "audio": "cancion4.mp3"
+  },
+  {
+    "id": 5,
+    "nombre": "Miguel Mar",
+    "mensaje": "¡Eres tan profundo como el mar!",
+    "colorFondo": "#0066ff",
+    "colorTexto": "white",
+    "imagenes": [
+      "img/foto16.jpg",
+      "img/foto17.jpg",
+      "img/foto18.jpg"
+    ],
+    "audio": "cancion5.mp3"
   }
+]
