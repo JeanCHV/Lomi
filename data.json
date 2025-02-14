@@ -51,16 +51,17 @@
   },
   {
     "id": 4435,
-    "nombre": "Sofía Sol",
-    "mensaje": "¡Brillas como el sol!",
+    "nombre": "Jennifer",
+    "mensaje": "¡Eres tan dulce como la miel!",
     "colorFondo": "#ff6600",
     "colorTexto": "black",
     "imagenes": [
-      "img/foto13.jpg",
-      "img/foto14.jpg",
-      "img/foto15.jpg"
+      "img/foto10.jpg",
+      "img/foto11.jpg",
+      "img/foto12.jpg",
+      "img/foto13.jpg"
     ],
-    "audio": "cancion4.mp3"
+    "audio": "Gustavo Cerati - Crimen.mp3"
   },
   {
     "id": 5435,
