@@ -23,6 +23,8 @@ function mostrarDatos(datos) {
     //document.body.style.backgroundColor = datos.colorFondo;
     document.getElementById('mensaje').style.color = data.colorTexto;
     document.getElementById('mensaje').style.backgroundColor = data.colorFondo;
+    //cambiar el titulo de la pagina 
+    document.title = 'Flores para '+data.nombre;
 
     // Mostrar imágenes
     const galeria = document.getElementById('galeria');
