@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 1435,
     "nombre": "Ana Pata Abierta",
     "mensaje": "¡Gracias por ser tan 🐩!",
     "colorFondo": "#fc0069",
@@ -13,31 +13,33 @@
     "audio": "BAD BUNNY ft. Chuwi - WELTiTA (Visualizer)  DeBÍ TiRAR MáS FOToS.mp3"
   },
   {
-    "id": 2,
-    "nombre": "Luisa Luz",
-    "mensaje": "¡Gracias por todo!",
+    "id": 2435,
+    "nombre": "Noxius",
+    "mensaje": "¡Gracias por el pan con agua!",
     "colorFondo": "#00ffcc",
     "colorTexto": "white",
     "imagenes": [
-      "img/foto4.jpg"
+      "img/foto4.jpg",
+      "img/foto5.jpg",
+      "img/foto6.jpg"
     ],
-    "audio": "Bad Bunny - Moscow Mule (Video Oficial)  Un Verano Sin Ti.mp3"
+    "audio": "Harley Quinn - Faraón Love Shady  [ Video Oficial ].mp3"
   },
   {
-    "id": 3,
-    "nombre": "Pedro Piedra",
-    "mensaje": "¡Eres único!",
+    "id": 3435,
+    "nombre": "Doña Torita",
+    "mensaje": "¡Eres única!",
     "colorFondo": "#cc00ff",
     "colorTexto": "white",
     "imagenes": [
-      "img/foto10.jpg",
-      "img/foto11.jpg",
-      "img/foto12.jpg"
+      "img/foto7.jpg",
+      "img/foto8.jpg",
+      "img/foto9.jpg"
     ],
     "audio": "cancion3.mp3"
   },
   {
-    "id": 4,
+    "id": 4435,
     "nombre": "Sofía Sol",
     "mensaje": "¡Brillas como el sol!",
     "colorFondo": "#ff6600",
@@ -50,7 +52,7 @@
     "audio": "cancion4.mp3"
   },
   {
-    "id": 5,
+    "id": 5435,
     "nombre": "Miguel Mar",
     "mensaje": "¡Eres tan profundo como el mar!",
     "colorFondo": "#0066ff",

@@ -36,6 +36,10 @@
             /* Ajusta el margen superior para que esté debajo del mensaje */
             padding: 20px;
         }
+        .flowers {
+            position: absolute;
+            transform: scale(0.6);
+        }
 
         .imagen-galeria {
             width: 150px;
@@ -74,13 +78,13 @@
         }
         .flowers {
             position: absolute;
-            transform: scale(0.6);
+            transform: scale(0.4);
         }
 
 
         .imagen-galeria {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             object-fit: cover;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -137,6 +141,41 @@
 #playaudio:active {
     background-color: #3e8e41; /* Cambio de color al hacer clic */
     transform: scale(0.9); /* Efecto de escala al hacer clic */
+}
+
+#exit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ff4d4d; /* Color de fondo rojo */
+    border: none;
+    border-radius: 50%; /* Hacemos el botón circular */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+#exit:hover {
+    background-color: #ff1a1a; /* Cambio de color al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+#exit:active {
+    background-color: #e60000; /* Cambio de color al hacer clic */
+    transform: scale(0.9); /* Efecto de escala al hacer clic */
+}
+
+/* Icono de "X" dentro del botón */
+#exit::before {
+    content: '×'; /* Símbolo de multiplicación como "X" */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>
 
@@ -447,6 +486,9 @@
             </div>
         </div>
 
+    </div>
+    <div class="header" id="header-exit" >
+        <button id="exit" onclick="exit()"></button>
     </div>
     <div class"footer" id="footer-playaudio">
         <button id="playaudio" onclick="playAudio()">▶</button>

@@ -8,13 +8,22 @@ async function cargarDatos() {
     const datos = await respuesta.json();
     return datos;
 }
+function exit() {
+    window.location.href = 'index.html';
+    sessionStorage.clear();
+
+}
 
 // Función para mostrar los datos en la página
 function mostrarDatos(datos) {
+    if (!sessionStorage.getItem('id')) {
+        window.location.href = 'index.html';
+        return;
+    }
     //obtener el json segun el id del sessionstorage 
     const id = sessionStorage.getItem('id');
     const data = datos.find((element) => element.id == id);
-    console.log(data);
+
     // Personalizar el mensaje
     document.getElementById('nombre').textContent = data.nombre;
     document.getElementById('textoMensaje').textContent = data.mensaje;
