@@ -1,5 +1,16 @@
 [
   {
+    "id": 1,
+    "nombre": "Ana ",
+    "mensaje": "¡Gracias por ser tan especial!",
+    "colorFondo": "#fc0069",
+    "colorTexto": "white",
+    "imagenes": [
+      "img/foto0.jpg"
+    ],
+    "audio": "BAD BUNNY ft. Chuwi - WELTiTA (Visualizer)  DeBÍ TiRAR MáS FOToS.mp3"
+  },
+  {
     "id": 1435,
     "nombre": "Ana Pata Abierta",
     "mensaje": "¡Gracias por ser tan 🐩!",
